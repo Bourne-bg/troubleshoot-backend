@@ -1,0 +1,15 @@
+{
+  "name": "car-diagnose-backend",
+  "version": "1.0.0",
+  "description": "Backend for DIY car repair diagnosis using OpenAI GPT-4",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "openai": "^3.2.1",
+    "dotenv": "^10.0.0"
+  }
+}
